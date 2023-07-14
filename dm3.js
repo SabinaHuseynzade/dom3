@@ -51,13 +51,14 @@
 // // 8)
 // // //в чем разница между nodeList и HtmlCollection
 
-// //nodeList может содержать узлы,а HtmlCollection может содержать только элементы. 
+// //nodeList может содержать узлы,а HtmlCollection может содержать только элементы.
 
 //1
 
 function sevenBoom(array){
     let string = array.join("");
-    if (string.includes("7")) {
+    let exm = 7;
+    if (string = exm) {
         return "Boom!";
     } 
     else {
